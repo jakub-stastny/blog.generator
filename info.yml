@@ -1,0 +1,7 @@
+language: Deno
+---
+
+|
+  The generator parses blog post entries from [[https://github.com/jakub-stastny/data.blog][data.blog]]'s =posts= directory using [[https://github.com/jakub-stastny/blog.parser.post.org][blog.parser.post.org]] and writes generated posts into the =output= directory using [[https://github.com/jakub-stastny/blog.parser.post.json][blog.parser.post.json]].
+
+  It checks that the version of [[https://github.com/jakub-stastny/blog.parser.post.json][blog.parser.post.json]] that's being used by the generator is the same as the one used on the live server, hence avoiding any potential incompatibilities and runtime issues.
